@@ -2,8 +2,8 @@ library(readxl)
 library(dplyr)
 library(data.table)
 
-datos<-fread("C:/Docunentos mios/Fundamentos de ciencias de datos/Tarea_01/20160927_EVALUACION_DOCENTE_2015_20160609_PUBL.csv",
-             encoding = "Latin-1")
+datos<-fread("", #<================================================================Agregas ruta documento EXCEL
+             encoding = "Latin-1")  #<=============================================No lee las Ñ sin esta linea
 
 
 tabla_fin<-datos %>%
