@@ -2,8 +2,8 @@ library(readxl)
 library(dplyr)
 library(data.table)
 
-datos<-fread("", #<================================================================Agregas ruta documento EXCEL
-             encoding = "Latin-1")  #<=============================================No lee las ñ sin esta linea
+datos<-fread("",# <====================================Aqui va la direccion del archivo Excel; copias la direccion del archivo donde lo tengas guardado
+             encoding = "Latin-1")#<===================Sin esta linea no lee palabras con caracteres como la Ñ o Ñuble
 
 
 tabla_fin<-datos %>%
