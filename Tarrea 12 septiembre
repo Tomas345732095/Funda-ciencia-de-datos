@@ -3,7 +3,7 @@ library(dplyr)
 library(data.table)
 
 datos<-fread("", #<================================================================Agregas ruta documento EXCEL
-             encoding = "Latin-1")  #<=============================================No lee las Ñ sin esta linea
+             encoding = "Latin-1")  #<=============================================No lee las ñ sin esta linea
 
 
 tabla_fin<-datos %>%
